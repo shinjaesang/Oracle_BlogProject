@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="POSTS" directorySegmentName="seg_0" id="56ECEE90-4CC1-26AB-2746-B44AE56CF739">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<schemaObject>0C42F100-B052-4FFE-B190-25369DCC8340</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C006B4F-6D3F-37F6-79C7-8EEF9B8A00D8</segment>
+<tableSpace>A5EE5FE6-909D-C972-0093-DF101F85E816</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="23E5AE1C-2FD7-D787-D13C-320616C06052">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="31D91E11-F0A7-C7D5-BB47-E20E66C21AD8">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTENT" id="8D2EF44A-69B5-FD0A-6471-4598F2C2767E">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORY_ID" id="A0159286-FB9E-96C3-4965-8305A8F71704">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="B4952DF7-CAFE-C400-3308-4B3DEFF74BC7">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_AT" id="C108BE08-FB87-50DC-D09C-FA8D791B9460">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CATEGORY" id="25002ED3-D7ED-4089-F35F-B2FA24917A0A">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_USER" id="7269A01E-3E5F-583F-F3E9-AB5B6FE8DC0D">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000078182C00003$$" id="FA507BDF-BFB2-C8BC-57CE-146DDA23BD42">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>CONTENT</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>A5EE5FE6-909D-C972-0093-DF101F85E816</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="POSTS_PK" id="AF2675F8-05CC-E5DB-B3CD-416B073127E8">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:33 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<schemaObject>0C42F100-B052-4FFE-B190-25369DCC8340</schemaObject>
+<segment>515FCC30-8A42-BF00-B981-B9A87D369E87</segment>
+<tableSpace>A5EE5FE6-909D-C972-0093-DF101F85E816</tableSpace>
+<indexSegment>515FCC30-8A42-BF00-B981-B9A87D369E87</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

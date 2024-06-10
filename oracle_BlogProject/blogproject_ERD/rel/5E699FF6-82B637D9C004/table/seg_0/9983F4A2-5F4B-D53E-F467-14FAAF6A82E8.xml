@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9983F4A2-5F4B-D53E-F467-14FAAF6A82E8" schemaObject="0C42F100-B052-4FFE-B190-25369DCC8340" name="USERS">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>C##BLOGPROJECT</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DA603B72-3966-F9E3-5520-32C46A32FCB2">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="USERNAME" id="1C15AD91-5A3C-6660-D64F-7280B649863F">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="87FDE340-27F4-0882-E677-3665AF9D690B">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="C358EF16-EC3E-460E-4748-58FCB2D71270">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C134B73-C05F-59AE-D536-98AE70710EA5" schemaObject="0C42F100-B052-4FFE-B190-25369DCC8340" name="USERS_PK">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>C##BLOGPROJECT</sourceObjSchema>
+<sourceObjName>SYS_C008340</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:33 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA603B72-3966-F9E3-5520-32C46A32FCB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

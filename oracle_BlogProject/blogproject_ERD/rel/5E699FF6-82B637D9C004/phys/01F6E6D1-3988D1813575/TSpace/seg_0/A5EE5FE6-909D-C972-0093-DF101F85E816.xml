@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="A5EE5FE6-909D-C972-0093-DF101F85E816">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>C##BLOGPROJECT</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<encrypt>NO</encrypt>
+<fileType>SMALLFILE</fileType>
+<inMemory>NO</inMemory>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="USERS01.DBF" id="B5E4229F-1AD4-AA55-75DA-00CF20CC81F0">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjName>C:\APP\AI509-18\PRODUCT\21C\ORADATA\XE\USERS01.DBF</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:25:40 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>C:\APP\AI509-18\PRODUCT\21C\ORADATA\XE\USERS01.DBF</fileName>
+<nextBlockSize>1280</nextBlockSize>
+<size>6400</size>
+</DataFile>
+</dataFiles>
+</TableSpaceOraclev10g>

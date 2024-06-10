@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2339730E-2C78-B509-3070-88D0DD320AC3" schemaObject="0C42F100-B052-4FFE-B190-25369DCC8340" name="COMMENTS">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>C##BLOGPROJECT</sourceObjSchema>
+<sourceObjName>COMMENTS</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="14FB0BF4-8C7F-8365-CA18-3F44ABECFDE1">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>COMMENTS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="CONTENT" id="B44AED75-1785-AA10-824E-0B6BD604C40D">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>COMMENTS</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_AT" id="F605F4F1-AA72-F4CD-CAC8-606F3A3942A0">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>COMMENTS</sourceObjSchema>
+<sourceObjName>CREATED_AT</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="ABD3026F-C10B-FE0B-096E-1CF2FA5A9876">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>COMMENTS</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="800A1E16-2CEF-375F-B684-1CCAFD9217D1" referredColumn="DA603B72-3966-F9E3-5520-32C46A32FCB2"/>
+</associations>
+</Column>
+<Column name="POST_ID" id="AB0CF121-FCD5-5C9A-829C-D80525F5B54B">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>COMMENTS</sourceObjSchema>
+<sourceObjName>POST_ID</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="416E3038-38AD-BCAD-D094-4EC1868740AD" referredColumn="23E5AE1C-2FD7-D787-D13C-320616C06052"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F1DBC56-F123-9E28-0228-AB188AC4765C" schemaObject="0C42F100-B052-4FFE-B190-25369DCC8340" name="COMMENTS_PK">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>C##BLOGPROJECT</sourceObjSchema>
+<sourceObjName>SYS_C008361</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:33 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14FB0BF4-8C7F-8365-CA18-3F44ABECFDE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="448BB1D8-A3DF-EE74-7716-8A65E0C75A75" name="FK_COMMENT_POST">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB0CF121-FCD5-5C9A-829C-D80525F5B54B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0073A845-0349-A98F-1F70-F9D432D7A9E6" name="FK_COMMENT_USER">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABD3026F-C10B-FE0B-096E-1CF2FA5A9876"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

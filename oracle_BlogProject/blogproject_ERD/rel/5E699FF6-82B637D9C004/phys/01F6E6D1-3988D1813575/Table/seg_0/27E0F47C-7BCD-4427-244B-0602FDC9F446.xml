@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAGS" directorySegmentName="seg_0" id="27E0F47C-7BCD-4427-244B-0602FDC9F446">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<schemaObject>0C42F100-B052-4FFE-B190-25369DCC8340</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C006B4F-6D3F-37F6-79C7-8EEF9B8A00D8</segment>
+<tableSpace>A5EE5FE6-909D-C972-0093-DF101F85E816</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="46243F7B-FB7D-E4E7-3967-1AB45EB5C107">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="D7E6C3C2-3EFC-3E92-C855-566562B6104E">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TAGS_PK" id="C08F7D56-0360-80B1-0EEC-486349EBA793">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:33 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<schemaObject>0C42F100-B052-4FFE-B190-25369DCC8340</schemaObject>
+<segment>515FCC30-8A42-BF00-B981-B9A87D369E87</segment>
+<tableSpace>A5EE5FE6-909D-C972-0093-DF101F85E816</tableSpace>
+<indexSegment>515FCC30-8A42-BF00-B981-B9A87D369E87</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

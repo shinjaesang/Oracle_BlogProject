@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="COMMENTS" directorySegmentName="seg_0" id="2339730E-2C78-B509-3070-88D0DD320AC3">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<schemaObject>0C42F100-B052-4FFE-B190-25369DCC8340</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C006B4F-6D3F-37F6-79C7-8EEF9B8A00D8</segment>
+<tableSpace>A5EE5FE6-909D-C972-0093-DF101F85E816</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="14FB0BF4-8C7F-8365-CA18-3F44ABECFDE1">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="POST_ID" id="AB0CF121-FCD5-5C9A-829C-D80525F5B54B">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="ABD3026F-C10B-FE0B-096E-1CF2FA5A9876">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTENT" id="B44AED75-1785-AA10-824E-0B6BD604C40D">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_AT" id="F605F4F1-AA72-F4CD-CAC8-606F3A3942A0">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COMMENT_USER" id="0073A845-0349-A98F-1F70-F9D432D7A9E6">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COMMENT_POST" id="448BB1D8-A3DF-EE74-7716-8A65E0C75A75">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000078192C00002$$" id="789989B0-B65D-1CB6-2C29-292DEB933E3F">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>CONTENT</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>A5EE5FE6-909D-C972-0093-DF101F85E816</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMMENTS_PK" id="6F1DBC56-F123-9E28-0228-AB188AC4765C">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:33 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<schemaObject>0C42F100-B052-4FFE-B190-25369DCC8340</schemaObject>
+<segment>515FCC30-8A42-BF00-B981-B9A87D369E87</segment>
+<tableSpace>A5EE5FE6-909D-C972-0093-DF101F85E816</tableSpace>
+<indexSegment>515FCC30-8A42-BF00-B981-B9A87D369E87</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

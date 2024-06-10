@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56ECEE90-4CC1-26AB-2746-B44AE56CF739" schemaObject="0C42F100-B052-4FFE-B190-25369DCC8340" name="POSTS">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>C##BLOGPROJECT</sourceObjSchema>
+<sourceObjName>POSTS</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="23E5AE1C-2FD7-D787-D13C-320616C06052">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>POSTS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TITLE" id="31D91E11-F0A7-C7D5-BB47-E20E66C21AD8">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>POSTS</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="8D2EF44A-69B5-FD0A-6471-4598F2C2767E">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>POSTS</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_AT" id="C108BE08-FB87-50DC-D09C-FA8D791B9460">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>POSTS</sourceObjSchema>
+<sourceObjName>CREATED_AT</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="B4952DF7-CAFE-C400-3308-4B3DEFF74BC7">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>POSTS</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE1B21C7-2047-688A-EB87-3FDD0A9798CA" referredColumn="DA603B72-3966-F9E3-5520-32C46A32FCB2"/>
+</associations>
+</Column>
+<Column name="CATEGORY_ID" id="A0159286-FB9E-96C3-4965-8305A8F71704">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>POSTS</sourceObjSchema>
+<sourceObjName>CATEGORY_ID</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:32 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8FB5740-0D34-0315-6189-5558D32B4C3A" referredColumn="C85A062A-5364-DD1B-9FE0-A4ADA2616E80"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF2675F8-05CC-E5DB-B3CD-416B073127E8" schemaObject="0C42F100-B052-4FFE-B190-25369DCC8340" name="POSTS_PK">
+<sourceConnName>blogproject</sourceConnName>
+<sourceObjSchema>C##BLOGPROJECT</sourceObjSchema>
+<sourceObjName>SYS_C008349</sourceObjName>
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:33 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23E5AE1C-2FD7-D787-D13C-320616C06052"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25002ED3-D7ED-4089-F35F-B2FA24917A0A" name="FK_CATEGORY">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0159286-FB9E-96C3-4965-8305A8F71704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7269A01E-3E5F-583F-F3E9-AB5B6FE8DC0D" name="FK_USER">
+<createdBy>AI509-18</createdBy>
+<createdTime>2023-11-02 02:10:34 UTC</createdTime>
+<ownerDesignName>blogproject_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4952DF7-CAFE-C400-3308-4B3DEFF74BC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
